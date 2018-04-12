@@ -14,7 +14,7 @@ def isIn(char, aStr):
 
     low = 0
     high = len(aStr)
-    mid = (low + high) / 2
+    mid = (low + high) // 2
 
 
     i = 0
